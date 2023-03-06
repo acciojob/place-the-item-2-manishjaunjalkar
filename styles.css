@@ -1,19 +1,20 @@
-.flex-container{
+.flex-container .holder{
 	display:flex;
 	flex-flow: row wrap;
+	justify-content: center;
 }
-.flex-container > div{
+.flex-container .holder > div{
 	font-weight: bold;
 	font-size: 25px;
 	background-color: green;
 	width:100px;
 	height: 100px;
 }
-.flex-container .one{
+.flex-container .holder .one{
 	background-color: red;
 	order:1;
 }
-.flex-container .two{
+.flex-container .holder .two{
 	background-color: blue;
 	order:1;
 }
